@@ -1,9 +1,10 @@
 import Layout from "./components/Layout"
+import Item from "./components/Item"
 
 function App() {
   return (
     <Layout>
-      <p>this is inside content</p>
+      <Item />
     </Layout>
   )
 }
