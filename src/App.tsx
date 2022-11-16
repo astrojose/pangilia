@@ -1,9 +1,10 @@
 import Layout from "./components/Layout"
-import Item from "./components/Item"
+import TopBar from "./components/TopBar"
 
 function App() {
   return (
     <Layout>
+      <TopBar />
       <Item />
     </Layout>
   )
