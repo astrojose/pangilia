@@ -1,3 +1,4 @@
+import Item from "./components/Item"
 import Layout from "./components/Layout"
 import TopBar from "./components/TopBar"
 

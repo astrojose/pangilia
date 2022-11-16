@@ -1,22 +1,29 @@
 const Item = () => {
   return (
     <>
-      <div className="flex p-3 space-x-2">
-        <div className="p-1">
-          <input type="checkbox" name="done" id="" />
+      <div className="flex py-3 px-5 space-x-2 border-b border-gray-200 cursor-pointer my-2">
+        <div className="p-1 rounded-full">
+          <input type="checkbox" className="rounded w-4 h-4" name="done" id="" />
         </div>
         <div className="flex flex-col">
-          <h1>Complete main UI components</h1>
-          <p>Would be good if we include every component in design system</p>
-          <div className="flex space-x-3 py-2">
-            <div className="text-red-500">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <h1 className="font-extrabold text-xl">Complete main UI components</h1>
+          <p className="text-gray-500">Would be good if we include every component in design system</p>
+          <div className="flex space-x-3 py-2 items-center">
+            <div className="flex space-x-2 text-red-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
               </svg>
-
               <span>6 Apr 2022</span>
             </div>
-            <div> <span>Esther Howard</span> </div>
+            <div>
+              .
+            </div>
+            <div className="flex space-x-2 text-gray-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+              </svg>
+              <span>Esther Howard</span>
+            </div>
           </div>
         </div>
       </div>
