@@ -6,6 +6,7 @@ const Main = () => {
       <div> 
         <Item />
       </div>
+      //TODO: Implement design and add functionality to NewItem form 
       <NewItem />
     </>
   )
